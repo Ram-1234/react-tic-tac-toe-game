@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './index.css';
 
 export default class FooterButton extends Component{
     constructor(props){
@@ -7,7 +8,7 @@ export default class FooterButton extends Component{
 
     render() {
         return (
-            <button onClick={this.props.reload}>Restart</button>
+            <button  onClick={this.props.reload}>Restart</button>
         )
     }
 }

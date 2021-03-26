@@ -30,9 +30,11 @@ code {
   cursor: pointer;
 }
 
-#button {
+.button {
   text-align: center;
+
 }
+
 button {
   height: 40px;
   width: 100px;
@@ -56,4 +58,11 @@ h3 {
   flex-wrap: wrap;
   width: 310px;
   margin: auto;
+}
+h1{
+  text-align: center;
+}
+
+.button{
+  text-align: center;
 }
